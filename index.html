@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=initMap"
+      defer
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-2.2.1.min.js"
+      integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="test-area">
+      <div class="instructions" id="instructionarea">
+        CSUN Map Quiz. Please double click on the map the location of
+      </div>
+      <div class="refresh" id="refresharea"></div>
+      <div class="timer">00:00:00</div>
+
+      <div class="questionarea" id="questionarea1">Where is the SRC ?</div>
+      <div class="answerarea" id="answerarea1"></div>
+
+      <div class="questionarea" id="questionarea2"></div>
+      <div class="answerarea" id="answerarea2"></div>
+
+      <div class="questionarea" id="questionarea3"></div>
+      <div class="answerarea" id="answerarea3"></div>
+
+      <div class="questionarea" id="questionarea4"></div>
+      <div class="answerarea" id="answerarea4"></div>
+
+      <div class="questionarea" id="questionarea5"></div>
+      <div class="answerarea" id="answerarea5"></div>
+
+      <div class="result" id="resultarea"></div>
+      <div class="animation" id="animationarea"></div>
+      
+    </div>
+  </body>
+</html>

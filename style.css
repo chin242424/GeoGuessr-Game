@@ -1,0 +1,84 @@
+#map {
+  height: 100%;
+  width: 50%;
+  float: right;
+  border: 2px solid red;
+}
+
+.questionarea {
+  padding: 5px 5px;
+  text-align: center;
+  background-color: #c3f584;
+  height: 30px;
+  font-size: 2rem;
+}
+
+.answerarea {
+  padding: 5px 5px;
+  text-align: center;
+  background-color: #B684F5;
+  height: 30px;
+  font-size: 2rem;
+}
+
+.result {
+  padding: 5px 5px;
+  text-align: center;
+  background-color: #f584c2;
+  height: 30px;
+  font-size: 2rem;
+}
+
+.instructions {
+  padding: 5px 5px;
+  text-align: center;
+  background-color: #f584c2;
+  height: 70px;
+  font-size: 2rem;
+}
+
+.result {
+  padding: 5px 5px;
+  text-align: center;
+  background-color: #f584c2;
+  height: 30px;
+  font-size: 2rem;
+}
+
+.animation {
+  padding: 5px 5px;
+  text-align: center;
+  /*background-color:#FEFFEA;*/
+
+  height: 40px;
+  font-size: 2rem;
+}
+
+#test-area {
+  height: 100%;
+  width: 50%;
+  background-color: #E9EEBB;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FEFFEA;
+}
+
+.timer {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.refresh {
+  padding: 5px 5px;
+  text-align: center;
+  background-color: #E9EEBB;
+  height: 40px;
+  font-size: 3rem;
+}
